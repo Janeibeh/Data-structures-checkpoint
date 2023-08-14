@@ -1,0 +1,14 @@
+ALGORITHM PROCEDURE Dot_product()
+VAR
+    PROCEDURE Dot_produc(V1,V2:INTEGER)
+
+    ps: INTEGER := 0
+    i: INTEGER
+BEGIN
+    FOR (let i = 0; i < vector1.length; i++) DO;
+    ps = ps + vector1[i] * vector2[i];
+        return ps;
+END_FOR
+
+    
+END
